@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malek Klibi - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <!-- 3D Gaming Background Canvas -->
+  <canvas id="gaming-bg-canvas"></canvas>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Malek Klibi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Malek Klibi">Malek Klibi</h1>
+
+          <p class="title">Video Game Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:malekklibi5@gmail.com" class="contact-link">malekklibi5@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+21693015239" class="contact-link">+216 93 015 239</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a href="https://github.com/Malekklibi1" class="contact-link" target="_blank">github.com/Malekklibi1</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tunis, Tunisia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Malekklibi1" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/malek-klibi" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:malekklibi5@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <div class="cv-download">
+          <a href="./assets/files/CV.pdf" download="Malek_Klibi_CV.pdf" class="cv-download-btn">
+            <div class="icon-box">
+              <ion-icon name="download-outline"></ion-icon>
+            </div>
+            <div class="cv-info">
+              <p class="cv-title">Download CV</p>
+              <p class="cv-subtitle">PDF Format</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Video game developer with a strong focus on gameplay and interactive production. Experience in rapid prototyping, 
+            mechanics design, artificial intelligence, and user interfaces. Capable of working independently or in a team 
+            on complete projects, from concept to playable version.
+          </p>
+
+          <p>
+            I'm serious, structured, and attentive to the quality of the final product. My expertise spans from Unity and 
+            Unreal Engine development to 3D animation, VR/AR technologies, and web development. I create immersive gaming 
+            experiences with complex AI systems, dynamic environments, and engaging gameplay mechanics.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="game development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+
+                <p class="service-item-text">
+                  Complete game development using Unity and Unreal Engine, from concept to playable version with gameplay programming and AI systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="AI icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game AI & Systems</h4>
+
+                <p class="service-item-text">
+                  Advanced AI implementation including FSM, Behavior Trees, and Utility AI systems with NavMesh pathfinding.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="3D icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Animation & Modeling</h4>
+
+                <p class="service-item-text">
+                  3D modeling, rigging, skinning, and animation using Maya, 3ds Max, and ZBrush with texture baking and UV mapping.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="VR/AR icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">VR/AR Development</h4>
+
+                <p class="service-item-text">
+                  Immersive experience creation with Virtual Reality and Augmented Reality technologies, including Oculus and SteamVR integration.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor's in Computer Science - Multimedia (Video Game Specialization)</h4>
+
+              <span>2023 — 2026</span>
+
+              <p class="timeline-text">
+                ISAMM – University of Manouba. Specialized in video game development with focus on gameplay programming, 
+                AI systems, 3D animation, VR/AR technologies, and interactive media production.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccalaureate in Computer Science</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Asdrubal Private School. Completed secondary education with a specialization in Computer Science, 
+                building a foundation in programming and technology.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity Developer – The Last Harvest (Student Project)</h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                Created a survival simulation game with seasonal cycles, dynamic weather, and winter countdown. Implemented resource 
+                management system and advanced AI for NPCs using FSM, Behavior Trees, and Utility System. Procedural generation, 
+                NavMesh pathfinding, and team collaboration using GitHub and Unity version control.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer – ARENA.GG (Personal Project)</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Front-end reproduction of an e-sport website from Figma mockup. Responsive architecture using HTML5, CSS3, 
+                native JavaScript, and React.js. Complete UI design including tournament pages, login, player profile, and dashboard. 
+                CSS animations, React state management, multi-page routing, and performance optimization.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Game Development Intern – Game Studio (Unity Prototype)</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Participated in pre-production and prototyping of a 3D mobile game. C# programming in Unity: inventory system 
+                with drag & drop and save functionality, interactive dialogue with choice responses, avatar animation with 
+                Animator Controller. Integration of short cinematics, visual effects, camera controller, and collaboration with 
+                3D artists and sound designers.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unity & C# Game Development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game AI (FSM, Behavior Trees, Utility AI)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">3D Modeling & Animation (Maya, 3ds Max)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unreal Engine & Blueprints</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development (React.js, HTML5, CSS3)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">VR/AR Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++ & Python Programming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Visual Effects (After Effects, Shader Graph)</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+         
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="#" data-project-item
+                 data-project-title="The Last Harvest"
+                 data-project-category="Unity Game Development"
+                 data-project-description="A survival simulation game with seasonal cycles, dynamic weather, and winter countdown. Features advanced AI for NPCs using FSM, Behavior Trees, and Utility System. Includes resource management system, procedural generation, NavMesh pathfinding, and team collaboration using GitHub and Unity version control."
+                 data-project-tech="Unity, C#, AI Systems (FSM, Behavior Trees, Utility AI), NavMesh, Procedural Generation, GitHub"
+                 data-project-github="https://github.com/Malekklibi1/TheLastHarvest"
+                 data-project-video="https://www.youtube.com/embed/LSdBj61lkw0?si=qiBUHxQIIw4I4gNO"
+                 data-project-images="./assets/images/thelastharvest.jpeg, ./assets/images/thelastharvest.png">
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/LSdBj61lkw0?si=qiBUHxQIIw4I4gNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thelastharvest.png" alt="the last harvest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Last Harvest</h3>
+
+                <p class="project-category">Unity Game Development</p>
+
+              </a>
+            </li>
+
+          <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="#" data-project-item
+                 data-project-title="Unity Fight Animation Showcase"
+                 data-project-category="Unity Animations"
+                 data-project-description="A survival simulation game with seasonal cycles, dynamic weather, and winter countdown. Features advanced AI for NPCs using FSM, Behavior Trees, and Utility System. Includes resource management system, procedural generation, NavMesh pathfinding, and team collaboration using GitHub and Unity version control."
+                 data-project-tech="Unity, C#, AI Systems (FSM, Behavior Trees, Utility AI), NavMesh, Procedural Generation, GitHub"
+                 data-project-github="https://github.com/Malekklibi1/TheLastHarvest"
+                 data-project-video="https://www.youtube.com/embed/44KT2iDf4Y8?si=DtUhbEj2i4qi2sIt"
+                 data-project-images="./assets/images/unityAnimationFight.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+<!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/44KT2iDf4Y8?si=DtUhbEj2i4qi2sIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+                  <img src="./assets/images/unityAnimationFight.png" alt="the last harvest" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Unity Fight Animation Showcase</h3>
+
+                <p class="project-category">Unity Animations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#" data-project-item
+                 data-project-title="ARENA.GG"
+                 data-project-category="React.js Web Development"
+                 data-project-description="Front-end reproduction of an e-sport website from Figma mockup. Responsive architecture using HTML5, CSS3, native JavaScript, and React.js. Features complete UI design including tournament pages, login, player profile, and dashboard. Includes CSS animations, React state management, multi-page routing, and performance optimization."
+                 data-project-tech="React.js, HTML5, CSS3, JavaScript, Figma, Responsive Design, TailwindCSS, Vite.js"
+                 data-project-github="https://github.com/Malekklibi1/ArenaGG"
+                 data-project-video=""
+                 data-project-demo="./assets/iframes/ARENA-GG/index.html"
+                 data-project-images="./assets/images/th-arena.png">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/th-arena.png" alt="arena.gg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ARENA.GG</h3>
+
+                <p class="project-category">React.js Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PROJECT MODAL
+      -->
+
+      <div class="modal-container" data-modal-container>
+
+        <div class="overlay" data-overlay></div>
+
+        <section class="project-modal">
+
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="modal-content">
+            
+            <div class="modal-gallery-wrapper">
+              <figure class="modal-project-img">
+                <img src="" alt="" data-modal-img>
+              </figure>
+              
+              <div class="gallery-thumbnails" data-gallery-thumbnails style="display: none;">
+                <!-- Thumbnails will be dynamically added here -->
+              </div>
+            </div>
+
+            <div class="modal-project-info">
+              <h3 class="modal-title" data-modal-title></h3>
+              <p class="modal-category" data-modal-category></p>
+              
+              <div class="separator"></div>
+              
+              <h4 class="h4">Description</h4>
+              <p class="modal-text" data-modal-description></p>
+              
+              <div class="separator"></div>
+              
+              <h4 class="h4">Technologies</h4>
+              <p class="modal-tech" data-modal-tech></p>
+              
+              <div class="modal-video" data-modal-video-container style="display: none;">
+                <div class="separator"></div>
+                <h4 class="h4">Demo Video</h4>
+                <div class="video-wrapper">
+                  <iframe data-modal-video src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              
+              <div class="separator"></div>
+              
+              <div class="modal-buttons">
+                <a href="#" target="_blank" class="modal-btn" data-modal-github>
+                  <ion-icon name="logo-github"></ion-icon>
+                  <span>View on GitHub</span>
+                </a>
+                <a href="#" class="modal-btn modal-btn-demo" data-modal-demo-btn style="display: none;">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                  <span>View Live Demo</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- Full Width Live Demo Section -->
+          <div class="modal-demo" data-modal-demo-container style="display: none;">
+            <div class="separator"></div>
+            <h4 class="h4">Live Demo</h4>
+            <div class="demo-wrapper">
+              <iframe data-modal-demo src="" frameborder="0" loading="lazy"></iframe>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102239.41060639049!2d10.060876990986147!3d36.79499199940538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337f5e7ef543%3A0xd671924e714a0275!2sTunis!5e0!3m2!1sen!2stn!4v1761849391393!5m2!1sen!2stn"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+<!-- Three.js core -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/build/three.min.js"></script>
+
+<!-- GLTF Loader -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+  
+  <!--
+    - 3D Gaming Background Script
+  -->
+  <script src="./assets/js/gaming-background.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

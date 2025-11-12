@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "static/css/main.23656a47.css",
+    "main.js": "static/js/main.717c5e0d.js",
+    "assets/iframes/ARENA-GG/static/media/Assist.mp4": "assets/iframes/ARENA-GG/static/media/Assist.8c5738c15b75ee0468ed.mp4",
+    "assets/iframes/ARENA-GG/static/media/hero.mp4.mp4": "assets/iframes/ARENA-GG/static/media/hero.mp4.be7f147109738714b080.mp4",
+    "assets/iframes/ARENA-GG/static/media/contact.mp4": "assets/iframes/ARENA-GG/static/media/contact.8a3df50163653abc2fcb.mp4",
+    "assets/iframes/ARENA-GG/static/media/counter strike 2.jpg": "assets/iframes/ARENA-GG/static/media/counter strike 2.031f408202d556c5a601.jpg",
+    "assets/iframes/ARENA-GG/static/media/banner5.avif": "assets/iframes/ARENA-GG/static/media/banner5.3d73697b28c71110e561.avif",
+    "assets/iframes/ARENA-GG/static/media/ArenaGG logo.png": "assets/iframes/ARENA-GG/static/media/ArenaGG logo.165af20e3fa52929d818.png",
+    "assets/iframes/ARENA-GG/static/media/banner1.jpg": "assets/iframes/ARENA-GG/static/media/banner1.7f85d2e15c4d63e9a2ee.jpg",
+    "assets/iframes/ARENA-GG/static/media/banner2.jpg": "assets/iframes/ARENA-GG/static/media/banner2.815b9da8d7c9c92a567e.jpg",
+    "assets/iframes/ARENA-GG/static/media/League of legend .jpg.webp": "assets/iframes/ARENA-GG/static/media/League of legend .jpg.983b5b44029ebe84654c.webp",
+    "assets/iframes/ARENA-GG/static/media/valorant logo.png": "assets/iframes/ARENA-GG/static/media/valorant logo.54d516975475c0bc2c71.png",
+    "assets/iframes/ARENA-GG/static/media/valorant.jpg.webp": "assets/iframes/ARENA-GG/static/media/valorant.jpg.03a93ee2fd13e9cca896.webp",
+    "assets/iframes/ARENA-GG/static/media/dota 2 banner.jpg": "assets/iframes/ARENA-GG/static/media/dota 2 banner.092562ee36c7340d460e.jpg",
+    "assets/iframes/ARENA-GG/static/media/dota 2.jpg": "assets/iframes/ARENA-GG/static/media/dota 2.148b541bd81cadc285c5.jpg",
+    "assets/iframes/ARENA-GG/static/media/apex.jpg.jpeg": "assets/iframes/ARENA-GG/static/media/apex.jpg.32be0dd953dd82b0e903.jpeg",
+    "index.html": "/index.html",
+    "main.23656a47.css.map": "static/css/main.23656a47.css.map",
+    "main.717c5e0d.js.map": "static/js/main.717c5e0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23656a47.css",
+    "static/js/main.717c5e0d.js"
+  ]
+}

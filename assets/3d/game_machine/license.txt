@@ -1,0 +1,8 @@
+Model Information:
+* title:	Game Machine
+* source:	https://sketchfab.com/3d-models/game-machine-65f53e5b414648249e6770fb6e97cb1f
+* author:	scrawach (https://sketchfab.com/scrawach)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
